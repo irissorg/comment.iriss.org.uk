@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+/**
+ * @file fix-ie.css
+ * Fixes for Internet Explorer < 8.
+ *
+ */
+
+hr.break,
+.front #bottom-center-left	{ display: none; }
+.front #bottom-center-right	{ margin: 0 5px; }
+#header-area				{ background: none; z-index: 10000; }
+h2							{ zoom: 1; }
