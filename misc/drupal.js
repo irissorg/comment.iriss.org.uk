@@ -2,7 +2,7 @@
 /**
  * Override jQuery.fn.init to guard against XSS attacks.
  *
- * See http://bugs.jquery.com/ticket/9521
+ * See https://bugs.jquery.com/ticket/9521
  */
 (function () {
   var jquery_init = jQuery.fn.init;

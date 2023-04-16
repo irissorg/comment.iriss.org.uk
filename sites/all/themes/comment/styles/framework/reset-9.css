@@ -4,7 +4,7 @@
  * Eric Meyer's Reset CSS
  *
  * v1.0 | 20080212
- * http://meyerweb.com/eric/tools/css/reset/
+ * https://meyerweb.com/eric/tools/css/reset/
  *
  * Changes to the original Reset CSS:
  *   - "outline" attributes have been commented out for accessibility reasons
@@ -38,7 +38,7 @@ caption {
 }
 
 /* Warning: this may add 1-2 pixels to bottom of page */
-/* See http://drupal.org/node/422006 */
+/* See https://drupal.org/node/422006 */
 body { line-height: 1; }
 
 ol, ul { list-style: none; }

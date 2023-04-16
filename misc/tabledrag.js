@@ -358,7 +358,7 @@ Drupal.tableDrag.prototype.makeDraggable = function(item) {
 
   // Compatibility addition, return false on keypress to prevent unwanted scrolling.
   // IE and Safari will supress scrolling on keydown, but all other browsers
-  // need to return false on keypress. http://www.quirksmode.org/js/keys.html
+  // need to return false on keypress. https://www.quirksmode.org/js/keys.html
   handle.keypress(function(event) {
     switch (event.keyCode) {
       case 37: // Left arrow.
@@ -490,7 +490,7 @@ Drupal.tableDrag.prototype.getPosition = function(element){
   var top  = 0;
   // Because Safari doesn't report offsetHeight on table rows, but does on table
   // cells, grab the firstChild of the row and use that instead.
-  // http://jacob.peargrove.com/blog/2006/technical/table-row-offsettop-bug-in-safari
+  // https://jacob.peargrove.com/blog/2006/technical/table-row-offsettop-bug-in-safari
   if (element.offsetHeight == 0) {
     element = element.firstChild; // a table cell
   }

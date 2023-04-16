@@ -148,7 +148,7 @@ Drupal.ahah.prototype.success = function (response, status) {
   var wrapper = $(this.wrapper);
   var form = $(this.element).parents('form');
   // Manually insert HTML into the jQuery object, using $() directly crashes
-  // Safari with long string lengths. http://dev.jquery.com/ticket/1152
+  // Safari with long string lengths. https://dev.jquery.com/ticket/1152
   var new_content = $('<div></div>').html(response.data);
 
   // Restore the previous action and target to the form.
